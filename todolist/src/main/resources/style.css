@@ -1,0 +1,57 @@
+/* Import Fonts */
+@font-face {
+    font-family: 'Poppins';
+    src: url('fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Regular.ttf');
+}
+
+/* Root Styling */
+.root {
+    -fx-background-color: #000000;
+    -fx-font-family: 'Poppins';
+    -fx-padding: 10;
+}
+
+/* Buttons */
+.button {
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+    -fx-border-radius: 5;
+    -fx-font-family: 'Montserrat';
+    -fx-font-size: 14px;
+    -fx-padding: 8 15;
+}
+
+.button:hover {
+    -fx-background-color: #0056b3;
+}
+
+/* TextField and ComboBox */
+.text-field, .combo-box, .date-picker {
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 5;
+    -fx-padding: 5;
+    -fx-font-family: 'Poppins';
+    -fx-font-size: 14px;
+}
+
+/* ListView */
+.list-view {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 5;
+    -fx-font-family: 'Poppins';
+    -fx-font-size: 14px;
+}
+
+/* Sections */
+.hbox, .vbox {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 5;
+    -fx-padding: 10;
+}

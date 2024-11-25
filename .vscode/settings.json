@@ -1,0 +1,9 @@
+{
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.project.referencedLibraries": [
+    "/Users/nickbutani/Desktop/javafx-sdk-23.0.1/lib/**/*.jar"
+]
+
+
+}
